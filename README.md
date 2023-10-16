@@ -26,3 +26,20 @@ O dataset utilizado para esse projeto de análise de dados utilizando técnicas 
 * HbA1c_level: O nível de HbA1c (Hemoglobina A1c) é uma medida do nível médio de açúcar no sangue de uma pessoa nos últimos 2-3 meses. Níveis mais altos indicam um risco maior de desenvolver diabetes. Principalmente mais de 6,5% do nível de HbA1c indica diabetes.
 * blood_glucose_level: O nível de glicose no sangue refere-se à quantidade de glicose na corrente sanguínea em um determinado momento. Níveis elevados de glicose no sangue são um indicador chave de diabetes.
 * diabetes: é a variável alvo prevista, com valores de 1 indicando a presença de diabetes e 0 indicando a ausência de diabetes.
+
+### Desenvolvimento:
+
+Foram aplicadas diversas técnicas na construção desse projeto como:
+
+* Verificação da estrututra dos dados e possíveis correções de erros para valores incorretos
+* Análise da distribuição dos valores na base de dados e geração de insights
+* Agrupamento de dados para seu grupo mais próximo através de conjunto de clusters
+* Separação dos dados em treino e teste para evitar que os dados só sejam decorados e não realize as prediçoes corretamente
+* Utilização do método do cotovelo para uma boa generalização dos dados
+* Manipulação e alteração no formato do dataset para melhor se adequar ao objetivo da análise de dados
+* Utilização de uma árvore de decisão para segmentar os dados
+* Uso de uma matriz de confusão para comparar os dados com a realidade e a acuária para medir a exatidão do modelo de aprendizado de máquina
+* Realização de predição dos dados de acordo com os objetivos das análises
+* Criação de um dashboard de análise de pacientes do hospital com os dados do dataset desse caderno
+
+### Dashboard:
