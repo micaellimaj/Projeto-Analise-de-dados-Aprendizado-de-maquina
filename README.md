@@ -43,5 +43,35 @@ Foram aplicadas diversas técnicas na construção desse projeto como:
 * Uso de uma matriz de confusão para comparar os dados com a realidade e a acuária para medir a exatidão do modelo de aprendizado de máquina
 * Realização de predição dos dados de acordo com os objetivos das análises
 * Criação de um dashboard de análise de pacientes do hospital com os dados do dataset desse caderno
+### Importações python:
 
+Na construção desse projeto foram utilizadas em python:
+1. As seguintes bibliotecas:
+
+* pandas
+* numpy
+* seaborn
+* matplotlib
+* sklearn
+* graphviz
+* IPython
+
+2. Os seguintes módulos:
+
+* sklearn.metrics
+* matplotlib.pyplot
+* sklearn.cluster
+* sklearn.tree
+* IPython.display
+  
+
+3.As seguintes funções: 
+
+* confusion_matrix
+* DecisionTreeClassifier
+* tree
+* accuracy_score
+
+  
+--------
 
