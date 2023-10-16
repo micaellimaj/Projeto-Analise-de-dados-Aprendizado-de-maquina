@@ -5,6 +5,10 @@ O conjunto de dados utilizados para a realização desse projeto nos traz dados 
 O conjunto de dados utilizados para esse projeto pode ser encontrado no seguinte link: 
 https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 
+Para a realização desse projeto eu também decidir criar um dashboard no power Bi para auxiliar na análise do conjunto de dados, com a implementalção de visuais para entender a distribuição e o comportamento dos dados e em especial para o visual de IA que mostrar a probabilidade do paciente ter diabetes com base em alguns atributos que selecionamos no gráfico.
 
+### Tecnologias utilizadas:
 
-
+* <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=yellow1" alt="icon python" > 
+* <img src="https://img.shields.io/badge/Power_BI-000000?style=for-the-badge&logo=powerbi&logoColor=yellow" alt="icon power bi">
+* <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" alt="icon colab">
