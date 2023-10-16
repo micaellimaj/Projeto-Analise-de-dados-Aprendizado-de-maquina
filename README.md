@@ -12,3 +12,17 @@ Para a realização desse projeto eu também decidir criar um dashboard no power
 * <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=yellow1" alt="icon python" > 
 * <img src="https://img.shields.io/badge/Power_BI-000000?style=for-the-badge&logo=powerbi&logoColor=yellow" alt="icon power bi">
 * <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" alt="icon colab">
+
+### Atributos dos dados:
+
+O dataset utilizado para esse projeto de análise de dados utilizando técnicas de aprendizado de máquina: classificação e agrupamento, possui as seguintes colunas:
+
+* gender: refere-se ao sexo biológico do indivíduo, o que pode ter impacto na sua suscetibilidade ao diabetes. Existem três categorias nele: masculino, feminino e outros.
+* age: é um fator importante, pois o diabetes é mais comumente diagnosticado em adultos mais velhos. A idade varia de 0 a 80 em nosso conjunto de dados.
+* hypertesion: é uma condição médica na qual a pressão sanguínea nas artérias é persistentemente elevada. Tem valores 0 ou 1 onde 0 indica que não tem hipertensão e 1 significa que tem hipertensão.
+* heart_disease: é outra condição médica que está associada a um risco aumentado de desenvolver diabetes. Tem valores 0 ou 1 onde 0 indica que não tem doença cardíaca e 1 significa que tem doença cardíaca.
+* smoking_history: O histórico de tabagismo também é considerado um fator de risco para diabetes e pode exacerbar as complicações associadas ao diabetes. Em nosso conjunto de dados, temos 5 categorias, ou seja, não atual, anterior, sem informações, atual, nunca e sempre.
+* bmi: IMC (Índice de Massa Corporal) é uma medida de gordura corporal com base no peso e na altura. Valores mais altos de IMC estão associados a um maior risco de diabetes. A faixa de IMC no conjunto de dados é de 10,16 a 71,55. IMC inferior a 18,5 é baixo peso, 18,5-24,9 é normal, 25-29,9 é sobrepeso e 30 ou mais é obeso.
+* HbA1c_level: O nível de HbA1c (Hemoglobina A1c) é uma medida do nível médio de açúcar no sangue de uma pessoa nos últimos 2-3 meses. Níveis mais altos indicam um risco maior de desenvolver diabetes. Principalmente mais de 6,5% do nível de HbA1c indica diabetes.
+* blood_glucose_level: O nível de glicose no sangue refere-se à quantidade de glicose na corrente sanguínea em um determinado momento. Níveis elevados de glicose no sangue são um indicador chave de diabetes.
+* diabetes: é a variável alvo prevista, com valores de 1 indicando a presença de diabetes e 0 indicando a ausência de diabetes.
