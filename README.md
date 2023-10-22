@@ -45,33 +45,29 @@ Foram aplicadas diversas técnicas na construção desse projeto como:
 * Criação de um dashboard de análise de pacientes do hospital com os dados do dataset desse caderno
 ### Importações python:
 
-Na construção desse projeto foram utilizadas em python:
-1. As seguintes bibliotecas:
+```
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import seaborn.objects as so
+from IPython.display import Image, display
+import graphviz
+from sklearn import tree
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
+```
 
-* pandas
-* numpy
-* seaborn
-* matplotlib
-* sklearn
-* graphviz
-* IPython
+### Referências:
 
-2. Os seguintes módulos:
+Alguns sites que serviram de auxílio para a construção desse projeto:
 
-* sklearn.metrics
-* matplotlib.pyplot
-* sklearn.cluster
-* sklearn.tree
-* IPython.display
-  
+* https://ebaconline.com.br/
+* https://www.kaggle.com/
+* https://seaborn.pydata.org/tutorial/introduction.html
+* https://br.freepik.com/
+* https://scikit-learn.org/stable/
 
-3.As seguintes funções: 
-
-* confusion_matrix
-* DecisionTreeClassifier
-* tree
-* accuracy_score
-
-  
 --------
 
