@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 
 ### Painel:
 
-Para a realização desse projeto eu também decidir criar um dashboard no power Bi para auxiliar na análise do conjunto de dados, com a implementalção de visuais para entender a distribuição e o comportamento dos dados e em especial para o visual de IA que mostrar a probabilidade do paciente ter diabetes com base em alguns atributos que selecionamos no gráfico.
+Para a realização desse projeto eu também decidir criar um dashboard no power Bi para auxiliar na análise do conjunto de dados, com a implementalção de visuais para entender a distribuição e o comportamento dos dados e em especial para o visual de IA que mostrar a probabilidade do paciente ter diabetes com base em alguns atributos que selecionamos no gráfico. Link do dashboard: https://bit.ly/Micael-Lima-Analista-de-dados-Dashboard-Diabetes
 
 ### Tecnologias utilizadas:
 
