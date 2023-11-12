@@ -54,6 +54,7 @@ import plotly.express as px
 import seaborn.objects as so
 from IPython.display import Image, display
 import graphviz
+from sklearn.cluster import KMeans
 from sklearn import tree
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
