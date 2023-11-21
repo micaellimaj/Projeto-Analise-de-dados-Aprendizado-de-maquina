@@ -1,6 +1,6 @@
-# Projeto Análise de dados: Aprendizado de Máquina
+# Projeto Aprendizado de Máquina : Predição de Diabetes
 
-O conjunto de dados utilizados para a realização desse projeto nos traz dados relevantes sobre pacientes que podem desenvolver diabetes com base em vários atributos.Com o conjunto de dados, criamos dois modelos de aprendizado de máquina, um de agrupamento e outro de classificação, para realizar predições dos pacientes com base em seu histórico médico. Acabei abordando na parte do agrupamento algumas técnicas como o K-Medias para alocar os dados para o seu grupo mais próximo; além de separa os dados em treino e teste; e utilizar método de avaliação para melhor generalizar as predições. E na parte da classificação abordei técnica semelhantes ao anterior, como, separar os dados em treino e teste e o método de avaliação para melhorar a capacidade de predição do modelo, no entando, além desses, utilizei a matriz de confusão, que resume as predições feitas por um modelo e a acuária para verificar a porcentagem de acertos do modelo. 
+O conjunto de dados utilizados para a realização desse projeto nos traz dados relevantes sobre pacientes que podem desenvolver diabete com base em vários atributos.Com o conjunto de dados, criamos dois modelos de aprendizado de máquina, um de agrupamento e outro de classificação, para realizar predições dos pacientes com base em seu histórico médico. Acabei abordando na parte do agrupamento algumas técnicas como o K-Medias para alocar os dados para o seu grupo mais próximo; além de separa os dados em treino e teste; e utilizar método de avaliação para melhor generalizar as predições. E na parte da classificação abordei técnica semelhantes ao anterior, como, separar os dados em treino e teste e o método de avaliação para melhorar a capacidade de predição do modelo, no entanto, além desses, utilizei a matriz de confusão, que resume as predições feitas por um modelo e a acuária para verificar a porcentagem de acertos do modelo. 
 
 O conjunto de dados utilizados para esse projeto pode ser encontrado no seguinte link: 
 https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
@@ -33,15 +33,15 @@ O dataset utilizado para esse projeto de análise de dados utilizando técnicas 
 
 Foram aplicadas diversas técnicas na construção desse projeto como:
 
-* Verificação da estrututra dos dados e possíveis correções de erros para valores incorretos
+* Verificação da estrutura dos dados e possíveis correções de erros para valores incorretos
 * Análise da distribuição dos valores na base de dados e geração de insights
-* Agrupamento de dados para seu grupo mais próximo através de conjunto de clusters
-* Separação dos dados em treino e teste para evitar que os dados só sejam decorados e não realize as prediçoes corretamente
+* Agrupamento de dados para seu grupo mais próximo mediante o conjunto de clusters
+* Separação dos dados em treino e teste para evitar que os dados só sejam decorados e não realize as predições corretamente
 * Utilização do método do cotovelo para uma boa generalização dos dados
-* Manipulação e alteração no formato do dataset para melhor se adequar ao objetivo da análise de dados
+* Manipulação e alteração no formato da dat para melhor se adequar ao objetivo da análise de dados
 * Utilização de uma árvore de decisão para segmentar os dados
 * Uso de uma matriz de confusão para comparar os dados com a realidade e a acuária para medir a exatidão do modelo de aprendizado de máquina
-* Realização de predição dos dados de acordo com os objetivos das análises
+* Realização de predição dos dados conforme os objetivos das análises
 * Criação de um dashboard de análise de pacientes do hospital com os dados do dataset desse caderno
 ### Importações python:
 
@@ -54,6 +54,7 @@ import plotly.express as px
 import seaborn.objects as so
 from IPython.display import Image, display
 import graphviz
+from sklearn.cluster import KMeans
 from sklearn import tree
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
